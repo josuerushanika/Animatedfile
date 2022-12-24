@@ -65,6 +65,19 @@ a.btn.light:hover {
   color: var(--ligth-color);
 }
 
+a.btn.dark {
+  background: var(--dark-color);
+  color: var(--ligth-color);
+  padding: 16px 32px;
+  display: inline-block;
+}
+
+a.btn.dark:hover {
+  background: var(--ligth-color);
+  border: 1px solid var(--dark-color);
+  color: var(--dark-color);
+}
+
 /* Hero Section */
 
 .hero-wrapper {
