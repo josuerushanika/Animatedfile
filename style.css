@@ -1,0 +1,39 @@
+:root {
+    --dark-color: #011627;
+    --pink-color: #E63946;
+    --ligth-color: #F1FAEE;
+}
+
+/* VARIABLE FOR THE COLOR */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.wrapper {
+    width: 1152px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 44px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    /* margin: 0 30px; */
+}
