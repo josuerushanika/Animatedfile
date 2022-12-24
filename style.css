@@ -64,3 +64,9 @@ a.btn.light:hover {
   background: var(--dark-color);
   color: var(--ligth-color);
 }
+
+/* Hero Section */
+
+.hero-wrapper {
+display: flex;
+}
