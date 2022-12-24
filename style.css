@@ -70,6 +70,7 @@ a.btn.dark {
   color: var(--ligth-color);
   padding: 16px 32px;
   display: inline-block;
+  border: 1px solid var(--dark-color);
 }
 
 a.btn.dark:hover {
