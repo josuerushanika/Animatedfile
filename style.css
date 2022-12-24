@@ -136,8 +136,25 @@ a.btn.dark:hover {
   text-decoration: none;
   transition: all 400ms;
   display: inline-block;
+  padding-top: -300px;
 }
 
 .social-icons a:hover {
   transform: scale(1.2);
+}
+
+/* BG Shapes */
+
+.hero-bg-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 200;
+}
+
+.hero-bg-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -200;
 }
