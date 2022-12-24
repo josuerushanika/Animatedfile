@@ -47,3 +47,12 @@ nav ul li a {
 nav ul li a.active {
   color: var(--pink-color);
 }
+
+a.btn {
+  border-radius: 8px;
+  padding: 8px 24px;
+}
+
+a.btn.light {
+  border: 1px solid var(--dark-color);
+}
