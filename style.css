@@ -70,6 +70,13 @@ a.btn.light:hover {
 .hero-wrapper {
   display: flex;
   align-items: center;
-  background: #e63946;
-  height: 100vh;
+  height: calc(100vh - 89px);
+}
+
+.hero-wrapper .hero-text h1 {
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-size: 60px;
+  font-weight: normal;
+  line-height: 100%;
+  color: var(--dark-color);
 }
