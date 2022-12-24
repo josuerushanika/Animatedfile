@@ -102,3 +102,11 @@ a.btn.dark:hover {
   margin-top: 16px;
   margin-bottom: 20px;
 }
+
+.hero-wrapper .hero-image {
+  flex: 1px;
+}
+
+.hero-wrapper .hero-text {
+  flex: 1;
+}
