@@ -80,3 +80,11 @@ a.btn.light:hover {
   line-height: 100%;
   color: var(--dark-color);
 }
+
+.hero-wrapper .hero-text p.subheading {
+  font-size: 16px;
+  line-height: 200%;
+  width: 490px;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
