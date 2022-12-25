@@ -169,12 +169,16 @@ a.btn.dark:hover {
 /* Anmimations */
 
 .hero-bg-left img {
-  animation: move-right 1000ms forwards;
+  animation: move-right 1000ms forwards cubic-bezier(0.17, 0.67, 0.92, 0.12);
   transform: translateX(-100%);
 }
 
 .hero-bg-left img:nth-of-type(2) {
   animation-delay: 200ms;
+}
+
+.hero-bg-left img:first-child {
+  animation-delay: 400ms;
 }
 
 @keyframes move-right {
