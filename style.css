@@ -268,7 +268,8 @@ nav ul li {
 @media (max-width: 600px) {
   .hero-bg-left,
   .hero-bg-right,
-  nav ul {
+  nav ul,
+  .hero-image .hero-ground {
     display: none;
   }
 
@@ -285,6 +286,9 @@ nav ul li {
 
   .hero-wrapper {
     flex-direction: column;
-    
+  }
+
+  .hero-image img {
+    height: 300px;
   }
 }
