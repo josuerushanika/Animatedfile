@@ -165,3 +165,16 @@ a.btn.dark:hover {
   left: 0;
   height: 100vh;
 }
+
+/* Anmimations */
+
+.hero-bg-left img {
+  animation: move-right 1000ms forwards;
+  transform: translateX(-100%);
+}
+
+@keyframes move-right {
+  100% {
+     transform: translateX(0);
+  }
+}
