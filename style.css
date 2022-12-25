@@ -173,8 +173,12 @@ a.btn.dark:hover {
   transform: translateX(-100%);
 }
 
+.hero-bg-left img:nth-of-type(2) {
+  animation-delay: 200ms;
+}
+
 @keyframes move-right {
   100% {
-     transform: translateX(0);
+    transform: translateX(0);
   }
 }
