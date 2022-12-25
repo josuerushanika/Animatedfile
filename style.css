@@ -280,4 +280,11 @@ nav ul li {
   .logo img {
     height: 36px;
   }
+
+  /* Hero Section */
+
+  .hero-wrapper {
+    flex-direction: column;
+    
+  }
 }
