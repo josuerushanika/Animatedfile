@@ -279,7 +279,7 @@ nav ul li {
   }
 
   .logo img {
-    height: 36px;
+    height: 30px;
   }
 
   /* Hero Section */
@@ -289,7 +289,7 @@ nav ul li {
   }
 
   .hero-image {
-    margin-top: -60px;
+    margin-top: -40px;
   }
 
   .hero-image img {
@@ -313,14 +313,30 @@ nav ul li {
     flex: unset;
   }
 
+  .hero-wrapper .hero-text p.subheading {
+    width: 100%;
+  }
+
   .social-icons {
     position: static;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 60px;
   }
 
   .bg-left-mobile {
     position: fixed;
     top: 0;
+    z-index: -100;
+  }
+
+  .bg-bottom-mobile {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: -100;
+  }
+
+  nav {
+    padding-top: 16px;
   }
 }
