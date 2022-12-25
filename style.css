@@ -228,6 +228,13 @@ a.btn.dark:hover {
   animation-delay: 1200ms;
 }
 
+.social-icons a img {
+  animation: fade-rigth 2000ms forwards cubic-bezier(0.017, 0.37, 0.19, 1.08);
+  transform: translateX(-50px);
+  opacity: 0;
+  animation-delay: 1200ms;
+}
+
 @keyframes fade-rigth {
   50% {
     opacity: 0;
@@ -256,4 +263,12 @@ nav ul li {
   to {
     opacity: 1;
   }
+}
+
+@media (max-width: 600px) {
+  .hero-bg-left,
+  .hero-bg-right {
+    display: none;
+  }
+
 }
