@@ -186,3 +186,34 @@ a.btn.dark:hover {
     transform: translateX(0);
   }
 }
+
+.hero-text h1,
+.hero-text p.subheading,
+.hero-text a.btn {
+  animation: fade-down 2000ms forwards cubic-bezier(0.017, 0.37, 0.19, 1.08);
+  transform: translateX(-80px);
+  opacity: 0;
+}
+
+.hero-text p.subheading {
+  animation-delay: 200ms;
+}
+
+.hero-text a.btn {
+  animation-delay: 500ms;
+}
+
+@keyframes fade-down {
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-image .hero-ground {
+  
+}
