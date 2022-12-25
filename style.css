@@ -288,6 +288,10 @@ nav ul li {
     flex-direction: column;
   }
 
+  .hero-image {
+    margin-top: -60px;
+  }
+
   .hero-image img {
     height: 300px;
   }
@@ -299,5 +303,24 @@ nav ul li {
 
   .hero-wrapper .hero-text {
     text-align: center;
+  }
+
+  .a.btn.dark {
+    padding: 2px 2px;
+  }
+
+  .hero-wrapper .hero-text .hero-wrapper .hero-image {
+    flex: unset;
+  }
+
+  .social-icons {
+    position: static;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .bg-left-mobile {
+    position: fixed;
+    top: 0;
   }
 }
