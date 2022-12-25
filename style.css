@@ -168,7 +168,7 @@ a.btn.dark:hover {
 
 /* Anmimations */
 
-.hero-bg-left img {
+/* .hero-bg-left img {
   animation: move-right 1000ms forwards cubic-bezier(0.17, 0.67, 0.92, 0.12);
   transform: translateX(-100%);
 }
@@ -263,12 +263,21 @@ nav ul li {
   to {
     opacity: 1;
   }
-}
+} */
 
 @media (max-width: 600px) {
   .hero-bg-left,
-  .hero-bg-right {
+  .hero-bg-right,
+  nav ul {
     display: none;
   }
 
+  .wrapper {
+    width: 100%;
+    padding: 16px 32px;
+  }
+
+  .logo img {
+    height: 36px;
+  }
 }
