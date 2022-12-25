@@ -265,6 +265,11 @@ nav ul li {
   }
 } */
 
+.bg-left-mobile,
+.bg-bottom-mobile {
+  display: none;
+}
+
 @media (max-width: 600px) {
   .hero-bg-left,
   .hero-bg-right,
