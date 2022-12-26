@@ -375,5 +375,12 @@ nav ul li {
 
   nav .mobile-close {
     z-index: 200;
+    background: #fff;
+    box-shadow: 0 4px 26px -3px rgba(0, 0, 0, 0.22);
+    border-radius: 0 0 0 24px;
+    padding: 30px;
+    position: fixed;
+    right: 0;
+    top: 0;
   }
 }
