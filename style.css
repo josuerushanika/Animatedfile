@@ -372,4 +372,8 @@ nav ul li {
   nav.mobile-navigation ul li:last-child {
     margin-top: 24px;
   }
+
+  nav .mobile-close {
+    z-index: 200;
+  }
 }
