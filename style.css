@@ -385,6 +385,7 @@ nav .mobile-close {
 
   nav .mobile-close,
   nav .mobile-menu {
+    display: block;
     z-index: 200;
     background: #fff;
     box-shadow: 0 4px 26px -3px rgba(0, 0, 0, 0.22);
