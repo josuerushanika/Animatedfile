@@ -266,7 +266,10 @@ nav ul li {
 } */
 
 .bg-left-mobile,
-.bg-bottom-mobile {
+.bg-bottom-mobile,
+nav.mobile-navigation,
+nav .mobile-menu,
+nav .mobile-close {
   display: none;
 }
 
@@ -356,6 +359,13 @@ nav ul li {
     top: 0;
     height: 100vh;
     width: 100%;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  nav.mobile-navigation.active {
+    opacity: 1;
+    pointer-events: auto;
   }
 
   nav.mobile-navigation ul {
@@ -373,7 +383,8 @@ nav ul li {
     margin-top: 24px;
   }
 
-  nav .mobile-close {
+  nav .mobile-close,
+  nav .mobile-menu {
     z-index: 200;
     background: #fff;
     box-shadow: 0 4px 26px -3px rgba(0, 0, 0, 0.22);
@@ -382,5 +393,13 @@ nav ul li {
     position: fixed;
     right: 0;
     top: 0;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  nav .mobile-close.active,
+  nav .mobile-menu.active {
+    opacity: 1;
+    pointer-events: auto;
   }
 }
